@@ -26,8 +26,8 @@ const Contact: FC = () => {
           </div>
 
           <div className="max-w-3xl">
-            <h2 className="text-3xl md:text-4xl font-semibold text-white leading-tight">¿Tienes un proyecto en mente? Hablemos.</h2>
-            <p className="mt-4 text-slate-400 leading-8">Estoy disponible para proyectos freelance, colaboraciones y oportunidades de tiempo completo. Si tienes una idea, cuéntamela y construyamos algo memorable juntos.</p>
+            <h2 className="text-3xl md:text-4xl font-semibold text-white leading-tight">¿Tenés un proyecto en mente?</h2>
+            <p className="mt-4 text-slate-400 leading-8">Estoy disponible para proyectos freelance, colaboraciones y oportunidades de tiempo completo. Si tenés alguna idea, contamela y construyamos algo juntos.</p>
           </div>
 
           <a
