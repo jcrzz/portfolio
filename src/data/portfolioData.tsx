@@ -56,8 +56,8 @@ export const portfolioData: PortfolioData = {
     email: 'juancruzdelvalle12@gmail.com',
   },
   about: {
-    title: 'Construyo productos digitales con intención y foco.',
-    bio: 'Más allá de las herramientes, mi enfoque cmoienza en el negocio. No elijo tecnologias por tendencia, sino basándome en los requerimientos especificos de cada cliente y proyecto. Me especializo en analizar casos de uso reales para seleccionar el stack tecnológico que garantice el mejor rendimiento, una experiencia de usuario impecabley, sobre todo, una solución que aporte valor tangible a quien confía en mi trabajo.',
+    title: 'Productos digitales con intención y foco.',
+    bio: 'Más allá de las herramientes, mi enfoque comienza en el negocio. No elijo tecnologias por tendencia, sino basándome en los requerimientos especificos de cada cliente y proyecto. Me especializo en analizar casos de uso reales para seleccionar el stack tecnológico que garantice el mejor rendimiento, una experiencia de usuario impecabley, sobre todo, una solución que aporte valor tangible a quien confía en mi trabajo.',
     tools: [
       {
         name: 'React',
