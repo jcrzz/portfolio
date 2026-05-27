@@ -1,5 +1,6 @@
 import type { FC } from 'react'
 import { motion } from 'framer-motion'
+import { Briefcase } from 'lucide-react'
 import { portfolioData } from '../data/portfolioData'
 
 const containerVariants = {
@@ -21,55 +22,55 @@ const itemVariants = {
 
 const Experience: FC = () => {
   return (
-    <section id="experience" className="max-w-6xl mx-auto px-6 py-20">
+    <section id="experience" className="max-w-4xl mx-auto px-6 py-20">
       <motion.div
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, amount: 0.2 }}
         variants={containerVariants}
       >
-        <div className="mb-12 text-center">
-          <p className="text-sm uppercase tracking-[0.4em] text-slate-500">Experiencia</p>
-          <h2 className="mt-4 text-3xl md:text-4xl font-semibold text-white">Experiencia profesional</h2>
-          <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-[#9b6bff]" />
+        <div className="mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-white">Experiencia</h2>
+          <div className="mt-4 h-1 w-12 bg-[#9b6bff]" />
         </div>
 
-        <div className="relative ml-4 md:ml-10">
-          <div className="absolute left-0 top-0 h-full w-0.5 bg-slate-800" />
+        <div className="relative border-l border-slate-800 ml-3 md:ml-4 space-y-12">
+          {portfolioData.experiences.map((experience) => (
+            <motion.div key={experience.id} className="relative pl-8 md:pl-12" variants={itemVariants}>
+              {/* Timeline Icon */}
+              <div className="absolute -left-[20px] top-6 flex h-10 w-10 items-center justify-center rounded-full border border-slate-800 bg-[#0f111a]">
+                <Briefcase className="h-4 w-4 text-[#9b6bff]" />
+              </div>
 
-          <div className="space-y-8">
-            {portfolioData.experiences.map((experience) => (
-              <motion.article
-                key={experience.id}
-                className="relative overflow-hidden rounded-[32px] border border-slate-800/80 bg-slate-900/70 p-6 shadow-[0_24px_80px_rgba(0,0,0,0.25)] backdrop-blur-2xl transition-all duration-300 hover:-translate-y-1 hover:border-slate-700 hover:bg-slate-900/90"
-                variants={itemVariants}
-              >
-                <div className="absolute -left-5 top-6 flex h-11 w-11 items-center justify-center rounded-full border border-slate-700 bg-[#0f172a] text-white shadow-[0_10px_30px_rgba(0,0,0,0.24)]">
-                  <span className="text-xl font-semibold">•</span>
-                </div>
-                <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-                  <div>
-                    <h3 className="text-xl font-semibold text-white">{experience.role}</h3>
-                    <p className="mt-2 text-sm text-slate-400">{experience.company}</p>
+              {/* Content Card */}
+              <article className="rounded-[24px] border border-slate-800/80 bg-[#0a0c12]/80 p-6 md:p-8 shadow-lg transition-all hover:border-slate-700">
+                <div className="flex flex-col gap-4 md:flex-row md:items-start md:justify-between">
+                  <div className="space-y-1">
+                    <h3 className="text-xl font-bold text-white">{experience.role}</h3>
+                    <p className="text-sm text-slate-400">{experience.company}</p>
                   </div>
-                  <span className="inline-flex rounded-full bg-[#111827] px-4 py-2 text-sm font-medium text-slate-300 ring-1 ring-slate-800/80">
+                  <span className="inline-flex rounded-full bg-[#9b6bff]/10 px-3 py-1.5 text-xs font-mono font-medium text-[#b388ff] tracking-wide">
                     {experience.dates}
                   </span>
                 </div>
-                <p className="mt-6 text-slate-400 leading-7">{experience.description}</p>
-                <div className="mt-6 flex flex-wrap gap-2">
+                
+                <p className="mt-6 text-sm text-slate-400 leading-relaxed">
+                  {experience.description}
+                </p>
+                
+                <div className="mt-8 flex flex-wrap gap-2">
                   {experience.tech.map((tech) => (
                     <span
                       key={tech}
-                      className="rounded-full border border-slate-800/80 bg-slate-950/70 px-3 py-1 text-xs font-medium uppercase tracking-[0.2em] text-slate-300"
+                      className="rounded-lg bg-slate-800/60 px-3 py-1.5 text-xs font-mono text-slate-300"
                     >
                       {tech}
                     </span>
                   ))}
                 </div>
-              </motion.article>
-            ))}
-          </div>
+              </article>
+            </motion.div>
+          ))}
         </div>
       </motion.div>
     </section>
