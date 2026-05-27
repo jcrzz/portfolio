@@ -42,30 +42,27 @@ const Hero: FC<Props> = ({
       </div>
 
       <div className="relative z-10 flex flex-col items-center text-center px-6 py-20 md:py-36">
-        <p className="text-sm uppercase tracking-[0.4em] text-slate-400 mb-4">Hola, soy</p>
+        <p className="text-sm md:text-base font-mono text-[#b388ff] mb-4 tracking-wider">Hola, soy</p>
 
-        <h1 className="text-5xl md:text-8xl font-extrabold text-white leading-tight drop-shadow-[0_25px_85px_rgba(0,0,0,0.45)]">
+        <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold text-white leading-tight tracking-tight">
           {name}
         </h1>
 
-        <h2 className="mt-4 text-lg md:text-2xl text-slate-300 font-semibold">{role}</h2>
+        <h2 className="mt-4 text-xl md:text-3xl text-slate-400 font-semibold">{role}</h2>
 
-        <p className="mt-6 max-w-3xl text-slate-400 px-4 md:px-0 leading-8">{description}</p>
+        <p className="mt-6 max-w-2xl text-slate-400 px-4 md:px-0 leading-relaxed">{description}</p>
 
-        <div className="mt-12 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+        <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="#projects"
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-[#9b6bff] to-[#7c3cff] px-8 py-3 text-sm font-semibold text-white shadow-[0_20px_70px_rgba(124,58,237,0.26)] transition-transform duration-200 hover:-translate-y-1"
+            className="inline-flex items-center justify-center rounded-full bg-[#9b6bff] px-8 py-3.5 text-sm font-semibold text-white shadow-[0_0_40px_rgba(155,107,255,0.4)] transition-transform duration-300 hover:scale-105"
           >
             Ver Proyectos
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10">
-              →
-            </span>
           </a>
 
           <a
             href="#contact"
-            className="inline-flex items-center justify-center gap-2 rounded-full border border-slate-700 bg-slate-900/80 px-8 py-3 text-sm font-semibold text-slate-100 transition-colors duration-200 hover:border-[#7c3cff] hover:text-white"
+            className="inline-flex items-center justify-center rounded-full bg-slate-800/80 px-8 py-3.5 text-sm font-semibold text-slate-200 transition-colors duration-300 hover:bg-slate-700/90 hover:text-white"
           >
             Sobre Mí
           </a>

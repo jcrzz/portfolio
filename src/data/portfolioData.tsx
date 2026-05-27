@@ -49,11 +49,11 @@ export interface PortfolioData {
 
 export const portfolioData: PortfolioData = {
   personal: {
-    name: 'Tu Nombre',
-    initials: 'TN.',
-    role: 'Desarrollador Full Stack & Diseñador UI/UX',
+    name: 'Juan Cruz Del Valle',
+    initials: 'JCDV.',
+    role: 'Desarrollador Full Stack',
     description: 'Creo experiencias digitales que combinan diseño elegante con código limpio. Especializado en React, Node.js y todo lo que hay en medio.',
-    email: 'tuemail@ejemplo.com',
+    email: 'juancruzdelvalle12@gmail.com',
   },
   about: {
     title: 'Construyo productos digitales con intención y foco.',
@@ -122,29 +122,29 @@ export const portfolioData: PortfolioData = {
   experiences: [
     {
       id: 'senior',
-      role: 'Desarrollador Full Stack Senior',
-      company: 'Agencia Digital XYZ',
-      dates: '2022 — Presente',
+      role: 'Lead Frontend Developer & Project Manager',
+      company: 'Loteo La Alameda',
+      dates: 'Abril 2026',
       description:
-        'Lideré el desarrollo de aplicaciones web para clientes de distintos sectores, desde startups hasta empresas consolidadas. Implementé arquitecturas escalables con React y Node.js, reduciendo los tiempos de carga en un 40%.',
-      tech: ['React', 'Node.js', 'TypeScript', 'PostgreSQL'],
+        'Lideré el desarrollo integral de la web y el CMS administrativo. Gestioné el diseño UI/UX, el despliegue técnico y la comunicación directa con el cliente, asegurando una plataforma escalable y una gestión eficiente de contenidos.',
+      tech: ['Angular', 'Node.js', 'TypeScript', 'PostgreSQL'],
     },
     {
       id: 'freelance',
-      role: 'Desarrollador Frontend Freelance',
+      role: 'Co-Founder & Full Stack Developer',
       company: 'Clientes independientes',
-      dates: '2020 — 2022',
+      dates: '2025 - presente',
       description:
-        'Diseñé y desarrollé interfaces de usuario para más de 10 proyectos freelance, colaborando directamente con fundadores y equipos de producto para traducir ideas en experiencias digitales funcionales.',
+        'Co-fundador de la agencia enfocada en el ciclo de vida completo de software. Gestiono la prospección de clientes, diseño de propuestas personalizadas, desarrollo técnico integral, despliegue y mantenimiento de soluciones digitales a medida.',
       tech: ['React', 'TypeScript', 'Tailwind CSS', 'Figma'],
     },
     {
       id: 'junior',
-      role: 'Desarrollador Web Junior',
-      company: 'Startup SaaS Innovatech',
-      dates: '2019 — 2020',
+      role: 'Founder, Profesor & Drum Doctor',
+      company: 'JCDVDrumming',
+      dates: '2022 - Presente',
       description:
-        'Contribuí al desarrollo del producto principal de la empresa, implementando nuevas funcionalidades y mejorando la experiencia de usuario. Aprendí metodologías ágiles y trabajé de forma colaborativa con el equipo.',
+        'Desarrollé y gestiono una plataforma web dedicada a la oferta de servicios técnicos y educativos. La plataforma facilita la solicitud de clases personalizadas y consultoría especializada en audio, integrando una experiencia de usuario orientada a la gestión eficiente de turnos y requerimientos técnicos.',
       tech: ['Vue.js', 'Laravel', 'MySQL', 'AWS'],
     },
   ],
