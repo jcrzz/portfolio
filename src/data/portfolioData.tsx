@@ -52,12 +52,12 @@ export const portfolioData: PortfolioData = {
     name: 'Juan Cruz Del Valle',
     initials: 'JCDV.',
     role: 'Desarrollador Full Stack',
-    description: 'Creo experiencias digitales que combinan diseño elegante con código limpio. Especializado en React, Node.js y todo lo que hay en medio.',
+    description: 'Transformo requerimientos de negocio en soluciones digitales de alto impacto. Diseño y desarrollo productos escalables priorizando el rendimiento, la experiencia de usuario y la rentabilidad de cada proyecto',
     email: 'juancruzdelvalle12@gmail.com',
   },
   about: {
     title: 'Construyo productos digitales con intención y foco.',
-    bio: 'Soy un desarrollador apasionado por construir productos que resuelvan problemas reales. Cuando no estoy escribiendo código, estoy explorando nuevas herramientas de diseño, optimizando flujos de trabajo o compartiendo conocimiento con la comunidad. Mi enfoque principal es crear interfaces que se sientan vivas y sistemas que escalen con gracia.',
+    bio: 'Más allá de las herramientes, mi enfoque cmoienza en el negocio. No elijo tecnologias por tendencia, sino basándome en los requerimientos especificos de cada cliente y proyecto. Me especializo en analizar casos de uso reales para seleccionar el stack tecnológico que garantice el mejor rendimiento, una experiencia de usuario impecabley, sobre todo, una solución que aporte valor tangible a quien confía en mi trabajo.',
     tools: [
       {
         name: 'React',
@@ -123,7 +123,7 @@ export const portfolioData: PortfolioData = {
     {
       id: 'senior',
       role: 'Lead Frontend Developer & Project Manager',
-      company: 'Loteo La Alameda',
+      company: 'Loteo La Alameda - laalameda.com.ar',
       dates: 'Abril 2026',
       description:
         'Lideré el desarrollo integral de la web y el CMS administrativo. Gestioné el diseño UI/UX, el despliegue técnico y la comunicación directa con el cliente, asegurando una plataforma escalable y una gestión eficiente de contenidos.',
@@ -132,11 +132,11 @@ export const portfolioData: PortfolioData = {
     {
       id: 'freelance',
       role: 'Co-Founder & Full Stack Developer',
-      company: 'Clientes independientes',
+      company: 'Rivuz - rivuz.com.ar',
       dates: '2025 - presente',
       description:
         'Co-fundador de la agencia enfocada en el ciclo de vida completo de software. Gestiono la prospección de clientes, diseño de propuestas personalizadas, desarrollo técnico integral, despliegue y mantenimiento de soluciones digitales a medida.',
-      tech: ['React', 'TypeScript', 'Tailwind CSS', 'Figma'],
+      tech: ['React','Angular','Vite','Prisma','TypeScript', 'Tailwind CSS', 'Figma'],
     },
     {
       id: 'junior',
@@ -145,7 +145,7 @@ export const portfolioData: PortfolioData = {
       dates: '2022 - Presente',
       description:
         'Desarrollé y gestiono una plataforma web dedicada a la oferta de servicios técnicos y educativos. La plataforma facilita la solicitud de clases personalizadas y consultoría especializada en audio, integrando una experiencia de usuario orientada a la gestión eficiente de turnos y requerimientos técnicos.',
-      tech: ['Vue.js', 'Laravel', 'MySQL', 'AWS'],
+      tech: ['Angular', 'Node.js', 'Typescript','CSS'],
     },
   ],
   projects: [
@@ -177,7 +177,7 @@ export const portfolioData: PortfolioData = {
   socials: [
     {
       label: 'GitHub',
-      href: 'https://github.com/',
+      href: 'https://github.com/jcrzz',
       icon: (
         <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
           <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.71-2.78.6-3.37-1.34-3.37-1.34-.45-1.14-1.11-1.45-1.11-1.45-.91-.62.07-.61.07-.61 1.01.07 1.54 1.04 1.54 1.04.9 1.54 2.36 1.1 2.94.84.09-.65.35-1.1.63-1.35-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85.004 1.7.115 2.5.338 1.9-1.3 2.74-1.02 2.74-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.85-2.34 4.7-4.57 4.95.36.31.68.92.68 1.85 0 1.33-.01 2.4-.01 2.72 0 .27.18.59.69.49A10 10 0 0 0 22 12c0-5.52-4.48-10-10-10z" />
@@ -186,7 +186,7 @@ export const portfolioData: PortfolioData = {
     },
     {
       label: 'LinkedIn',
-      href: 'https://www.linkedin.com/',
+      href: 'https://www.linkedin.com/in/juancruzdelvalle/',
       icon: (
         <svg viewBox="0 0 24 24" className="h-5 w-5" fill="currentColor">
           <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.025-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.348V9h3.414v1.561h.049c.476-.9 1.637-1.852 3.369-1.852 3.602 0 4.268 2.367 4.268 5.451v6.292zM5.337 7.433a2.069 2.069 0 1 1 0-4.138 2.069 2.069 0 0 1 0 4.138zM7.119 20.452H3.553V9h3.566v11.452z" />
